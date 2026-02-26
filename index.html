@@ -62,6 +62,50 @@
 							<section class="posts">
 								<article>
 									<header>
+										<span class="date">Claude Desktop LLM + MCP</span>
+										<h2><a href="#">Manufacturing Intelligence MCP Server<br /></a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/connect.jpg" alt="" /></a>
+									<p>Built a Model Context Protocol server enabling natural language querying over relational manufacturing databases (SQLite/PostgreSQL/MySQL); Claude autonomously discovers schema, generates SQL, and returns structured analytics, packaged as an installable Claude Desktop extension (.mcpb) with support for user-configured production database connections.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/arbaazali872/OneSearch" class="button">See Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">LLM · spaCy · HuggingFace</span>
+										<h2><a href="#">Multilingual Medical NER & Document Classification<br /></a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/classification.jpg" alt="" /></a>
+									<p>Fine-tuned a multilingual transformer (XLM-RoBERTa) to detect disease mentions in both English and French clinical text, trained on two real medical corpora. Built a second pipeline that first identifies whether a document is medical, legal, or financial, then runs the appropriate NER model to extract relevant entities from it. Also tested how well the English-trained model generalizes to French with zero additional French training data.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/arbaazali872/document-ai-pipeline/" class="button">See Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">spaCy · Regex · Faker</span>
+                                        <h2><a href="#">Multilingual PII Detection & Document Anonymisation<br /></a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/private.jpg" alt="" /></a>
+									<p>Hybrid regex + spaCy NER pipeline that detects and redacts PII from English and French documents across medical, legal, and financial domains. Supports three redaction strategies: full masking, typed placeholders, and consistent surrogate replacement using locale-aware fake data generation.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/arbaazali872/pii_detection_redaction" class="button">See Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">Donut · Table Transformer · Tesseract</span>
+ 										<h2><a href="#">Multimodal Document Extraction Pipeline<br /></a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/document.jpg" alt="" /></a>
+									<p>End-to-end document understanding pipeline processing receipts and tables from raw images. Uses Donut for zero-OCR receipt extraction (company, date, address, total) and a two-stage Table Transformer + Tesseract approach for structured table parsing. Evaluated across 50 documents with per-field accuracy metrics.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/arbaazali872/multimodal_document_extraction" class="button">See Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
 										<span class="date">LangGraph + LLM</span>
 										<h2><a href="#">Database Query Assistant<br /></a></h2>
 									</header>
